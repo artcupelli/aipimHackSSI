@@ -1,0 +1,25 @@
+@import "../../../../../constants/colors.module.scss";
+
+.container{
+    border-radius: 100px;
+    background-color: $lightGray;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+
+    .hint{
+        display: none;
+        margin-right: 10px;
+    }
+}
+
+.container:hover{
+    transition: all 0.5s;
+    height: 45px;
+
+    .hint{
+        display: inline;
+    }
+}

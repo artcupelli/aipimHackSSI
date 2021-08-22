@@ -1,0 +1,26 @@
+@import "../../../../../constants/colors.module.scss";
+
+.container{
+    border-radius: 100px;
+    background-color: $lightGray;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    margin-bottom: 15%;
+}
+
+.container:hover{
+    transition: all 0.5s;
+    width: 45px;
+    height: 45px;
+}
+
+@media(max-width:1100px){
+    .container{
+        
+        margin: 0 1%;
+    }
+}
